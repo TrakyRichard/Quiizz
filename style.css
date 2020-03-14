@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/1.jpg');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.quiz_wrapper{
+    height: 500px;
+    width: 700px;
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.quiz_wrapper .question{
+    padding: 15px;
+    min-height: 50px;
+    background-color: rgb(24, 105, 116);
+    border-radius: 8px;
+    color: blanchedalmond;
+    font-size: 20px;
+    float: left;
+    width: 100%;
+}
+
+.quiz_wrapper .options{
+    float: left;
+    width: 100%;
+}
+.cat{
+    text-align: center;
+    color: black;
+}
+.answerAllRed{
+    background-color: red!important;
+}
+
+.answerAllGreen{
+    background-color: green!important;
+}
+
+.reload{
+    background-color: rgb(114, 114, 134)!important;
+}
+
+.quiz_wrapper .options ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btnRenit{
+    padding: 15px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: rgb(114, 7, 7);
+    border: none;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-style: 16px;
+    cursor: pointer;
+    outline: none;
+}
+.renit{
+   text-align: center;
+
+}
+
+.quiz_wrapper .options ul li{
+    cursor: pointer;
+    margin-right: 25px;
+    display: inline-block;
+    background-color: rgb(114, 114, 134);
+    width: 46%;
+    color: white;
+    padding: 15px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0px 3px 3px grey;
+}
+
+.quiz_wrapper .options ul li{
+    box-shadow: 0 0 0 grey;
+}
+.quiz_wrapper .score {
+    float: left;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.quiz_wrapper .score .next{
+    width: 40%;
+    float: left;
+}
+
+
+.quiz_wrapper .score .next button{
+    padding: 15px 0px;
+    color: white;
+    background-color: rgb(7, 71, 114);
+    border: none;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-style: 16px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 3px 3px grey;
+}
+
+.quiz_wrapper .score .next button:active{
+    box-shadow: 0px 3px 0px transparent;
+}
+
+.quiz_wrapper .score .score-card{
+    margin-bottom: 50px!important;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    float: left;
+}
+
+.quiz_wrapper .score .score-card{
+    text-transform: uppercase;
+    font-style: 20px;
+    color: black;
+    line-height: 50px;
+}
+
+.numberTrue{
+    padding: 5px 7px;
+    color: white;
+    background-color: rgb(2, 131, 19);
+    border-radius: 10px;
+}
+
+.numberFalse{
+    padding: 5px 7px;
+    color: white;
+    background-color: rgb(241, 9, 28);
+    border-radius: 10px;
+}
+
+h3{
+    text-align: center;
+    color: #fff;
+    margin: 30px 0 -15px;
+    font-size: 60px;
+}
